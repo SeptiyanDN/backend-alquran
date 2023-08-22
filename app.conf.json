@@ -1,0 +1,35 @@
+{
+    "appName": "Alquran API V1",
+    "baseUrl": "http://localhost:8033/",
+    "server": {
+        "port": 8080,
+        "readheadertimeout": 20,
+        "readtimeout": 60,
+        "writetimeout": 120,
+        "idletimeout": 90
+    },
+    "database": {
+        "host": "54.151.252.190",
+        "username": "postgres",
+        "name": "alquran",
+        "port": 5432,
+        "password": "development",
+        "max_idle_connection": 30,
+        "max_lifetime_connection": 30
+    },
+    "redis_credentials" : {
+        "REDIS_URL" : "54.151.252.190:6379",
+        "REDIS_PASSWORD" :""
+    },
+    "SECRET" : {
+        "SECRET_KEY_JWT" : "SECRET_KEY_JWT_SUPERDUPERRAHASIA"
+    },
+    "S3_CREDENTIALS" :{
+        "BUCKET" : "alquran",
+        "URL" :"is3.cloudhost.id",
+        "RESP_URL" : "https://is3.cloudhost.id",
+        "ACCESS_ID":"L423F7LNTOK5UF0ES6IL",
+        "SECRET_KEY" :"hiliV84eZfAI7xFmayLj6GyJR2k805ZuMic8ZWB4",
+        "REGION" :"id-jkt-1"
+    }
+}
